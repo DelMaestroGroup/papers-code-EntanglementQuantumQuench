@@ -21,5 +21,5 @@ The creation of these materials was supported in part by the National Science Fo
 ### Figures
 
 #### [Figure 01: t-V Model Phase Diagram]
-<img src="https://raw.githubusercontent.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/master/figures/method_flowchart_nobox.svg">
+<img src=https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/method_flowchart_nobox.svg">
 
