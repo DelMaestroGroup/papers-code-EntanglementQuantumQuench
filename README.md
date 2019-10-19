@@ -19,3 +19,7 @@ The creation of these materials was supported in part by the National Science Fo
 [<img width="100px" src="https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo.png">](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1553991)
 
 ### Figures
+
+#### Figure 01: Entanglement evolution after a quantum quench
+<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/method_flowchart_nobox.svg" width="600px">
+
