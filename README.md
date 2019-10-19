@@ -8,7 +8,7 @@ The time evolution of an initial  quantum state after a sudden change of interac
 This repository includes links, code, scripts, and data to generate the figures in a paper.
 
 ### Requirements
-The data in this project was generated via exact diagonalization.  Everything included in the [Data](https://github.com/DelMaestroGroup/) directory was generated via:
+The data in this project was generated via exact diagonalization.  Everything included in the [data](https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/tree/master/data) directory was generated via:
 
 * [ED for time evolution and entanglement entropy](https://github.com/DelMaestroGroup/tVDiagonalizeTimeEvaluationQuench/tree/TranslationalSymmetricInitialState_IntFermionBasis)
 * [LMFIT for finite size scaling analysis](https://lmfit.github.io/lmfit-py/)
