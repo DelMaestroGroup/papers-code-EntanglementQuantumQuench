@@ -11,6 +11,7 @@ This repository includes links, code, scripts, and data to generate the figures 
 The data in this project was generated via exact diagonalization.  Everything included in the [Data](https://github.com/DelMaestroGroup/) directory was generated via:
 
 * [ED for time evolution and entanglement entropy](https://github.com/DelMaestroGroup/tVDiagonalizeTimeEvaluationQuench/tree/TranslationalSymmetricInitialState_IntFermionBasis)
+* [LMFIT for finite size scaling analysis](https://lmfit.github.io/lmfit-py/)
 
 ### Support
 The creation of these materials was supported in part by the National Science Foundation under Award No. DMR-1553991.
