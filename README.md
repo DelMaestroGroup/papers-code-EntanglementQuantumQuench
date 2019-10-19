@@ -19,3 +19,7 @@ The creation of these materials was supported in part by the National Science Fo
 [<img width="100px" src="https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo.png">](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1553991)
 
 ### Figures
+
+#### [Figure 01: t-V Model Phase Diagram]
+<img src="https://raw.githubusercontent.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/master/figures/method_flowchart_nobox.svg">
+
