@@ -72,6 +72,6 @@ figure.subplot.top: 0.92
 savefig.transparent :  True     # transparent figures
 savefig.dpi         : 72.27     # figure dots per inch
 savefig.bbox        : tight     # 'tight' or 'standard'.
-savefig.pad_inches  : 0.05       # Padding to be used when bbox is set to 'tight'
+savefig.pad_inches  : 0.01       # Padding to be used when bbox is set to 'tight'
 
 pdf.fonttype       : 42
