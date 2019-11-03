@@ -23,6 +23,13 @@ text.usetex         :  False # use latex for all text handling. The following fo
                               # LaTeX \usepackage command, please inquire at the
                               # matplotlib mailing list
 
+### Use Helvetica for Math Text
+
+mathtext.fontset : custom
+mathtext.rm : Helvetica
+mathtext.it : Helvetica:italic
+mathtext.bf : Helvetica:bold
+
 ### AXES
 axes.labelsize      : 8      # fontsize of the x any y labels
 axes.linewidth      : 0.35    # edge linewidth
