@@ -25,6 +25,8 @@ The creation of these materials was supported in part by the National Science Fo
 #### Figure 01: Entanglement evolution after a quantum quench
 <img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/method_flowchart_nobox.svg" width="400px">
 
+This figure is relesed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) and can be freely copied, redistributed and remixed.
+
 #### Figure 02: Exact diagonalization results for entanglemnent
 <img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/DeltaS_vs_t_ED.svg" width="400px">
 
