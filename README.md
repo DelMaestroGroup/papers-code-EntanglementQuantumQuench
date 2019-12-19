@@ -23,14 +23,14 @@ The creation of these materials was supported in part by the National Science Fo
 ### Figures
 
 #### Figure 01: Entanglement evolution after a quantum quench
-<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/method_flowchart_nobox.svg" width="600px">
+<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/method_flowchart_nobox.svg" width="400px">
 
 #### Figure 02: Exact diagonalization results for entanglemnent
-<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/DeltaS_vs_t_ED.svg" width="600px">
+<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/DeltaS_vs_t_ED.svg" width="400px">
 
 #### Figure 03: Universality of entanglement
-<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/asymptotic_entropy_vs_invN_LL_prediction.svg" width="600px">
+<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/asymptotic_entropy_vs_invN_LL_prediction.svg" width="400px">
 
 #### Figure 04: Entanglement entropy from the bosonic diagonal ensemble
-<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/nobdm_SqnLL_N12_EE.svg" width="600px">
+<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/nobdm_SqnLL_N12_EE.svg" width="400px">
 
