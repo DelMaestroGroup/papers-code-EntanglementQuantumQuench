@@ -1,4 +1,7 @@
 [![Paper](https://img.shields.io/badge/paper-arXiv%3A1912.09947-B31B1B.svg)](https://arxiv.org/abs/1912.09947)
+[![DOI](https://zenodo.org/badge/214220909.svg)](https://zenodo.org/badge/latestdoi/214220909)
+
+
 
 # Universal Entanglement Growth After a Quantum Quench
 Adrian Del Maestro, Hatem Barghathi and Bernd Rosenow
