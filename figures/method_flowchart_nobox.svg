@@ -4585,9 +4585,9 @@
      showgrid="false"
      inkscape:current-layer="layer1"
      inkscape:document-units="px"
-     inkscape:cy="135.07279"
-     inkscape:cx="221.65902"
-     inkscape:zoom="4.7532225"
+     inkscape:cy="112.52843"
+     inkscape:cx="121.38837"
+     inkscape:zoom="1.6368964"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -4603,13 +4603,6 @@
        id="grid15863"
        type="xygrid" />
     <sodipodi:guide
-       inkscape:color="rgb(0,0,255)"
-       inkscape:label=""
-       inkscape:locked="false"
-       id="guide19568"
-       orientation="0,1"
-       position="28.940175,3.3475575" />
-    <sodipodi:guide
        inkscape:locked="false"
        id="guide20584"
        orientation="0,1"
@@ -4619,16 +4612,6 @@
        id="guide20640"
        orientation="0,1"
        position="36.21467,18.758678" />
-    <sodipodi:guide
-       inkscape:locked="false"
-       id="guide20846"
-       orientation="-0.70710678,0.70710678"
-       position="-15.927895,57.556393" />
-    <sodipodi:guide
-       inkscape:locked="false"
-       id="guide8061"
-       orientation="0,1"
-       position="60.837377,10.250227" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -4648,7 +4631,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <path
-       style="fill:none;stroke:#969696;stroke-width:0.52900005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.52900005,1.05800011;stroke-opacity:1;paint-order:stroke fill markers;stroke-dashoffset:0"
+       style="fill:none;stroke:#969696;stroke-width:0.52900004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.52900005, 1.05800011;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 61.766845,264.38698 c 0,0 6.53233,-3.31927 11.83142,-6.12296 5.29909,-2.80369 11.652891,-5.94016 11.652891,-5.94016"
        id="path12768"
        inkscape:connector-curvature="0"
@@ -4688,16 +4671,16 @@
        id="text12760"
        y="60.628754"
        x="-264.55389"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#323232;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-weight:normal;font-size:10.58329964px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#323232;fill-opacity:1;stroke:none;stroke-width:0.26458299"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.175px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#323232;fill-opacity:1;stroke-width:0.264583"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.17499995px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#323232;fill-opacity:1;stroke-width:0.26458299"
          y="60.628754"
          x="-264.55389"
          id="tspan12758"
          sodipodi:role="line">structure factor</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#323232;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-weight:normal;font-size:10.58329964px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#323232;fill-opacity:1;stroke:none;stroke-width:0.26458299"
        x="65.496078"
        y="267.70432"
        id="text12764"><tspan
@@ -4705,11 +4688,11 @@
          id="tspan12762"
          x="65.496078"
          y="267.70432"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.175px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#323232;fill-opacity:1;stroke-width:0.264583">wavevector</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.17499995px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#323232;fill-opacity:1;stroke-width:0.26458299">wavevector</tspan></text>
     <text
        transform="rotate(-17.740768)"
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.58329964px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299"
        x="-9.8735561"
        y="262.3822"
        id="text12774"><tspan
@@ -4717,15 +4700,15 @@
          id="tspan12772"
          x="-9.8735561"
          y="262.3822"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:2.82222000000000017px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#000000;fill-opacity:1;stroke-width:0.264583;">post-quench</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:2.82222009px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#000000;fill-opacity:1;stroke-width:0.26458299">post-quench</tspan></text>
     <text
        id="text12778"
        y="265.72153"
        x="-55.370819"
-       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.58329999999999949px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';letter-spacing:0px;word-spacing:0px;fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.264583;"
+       style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:10.58329964px;line-height:1.25;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';letter-spacing:0px;word-spacing:0px;fill:#969696;fill-opacity:1;stroke:none;stroke-width:0.26458299"
        xml:space="preserve"
        transform="rotate(-27.530482)"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:2.82222000000000017px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#969696;fill-opacity:1;stroke-width:0.264583;"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:2.82222009px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#969696;fill-opacity:1;stroke-width:0.26458299"
          y="265.72153"
          x="-55.370819"
          id="tspan12776"
@@ -4740,9 +4723,9 @@
        id="text5482"
        y="256.60406"
        x="-0.056339025"
-       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46944px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#378fba;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46943998px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#378fba;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.175px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light Italic';fill:#378fba;fill-opacity:1;stroke-width:0.264583px"
+         style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.17499995px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light Italic';fill:#378fba;fill-opacity:1;stroke-width:0.26458299px"
          y="256.60406"
          x="-0.056339025"
          id="tspan5480"
@@ -4754,7 +4737,7 @@
        id="g5581">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46944px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46943998px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="2.5915158"
          y="273.66223"
          id="text5465"><tspan
@@ -4762,13 +4745,13 @@
            id="tspan5463"
            x="2.5915158"
            y="273.66223"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.175px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#333333;fill-opacity:1;stroke-width:0.264583px">spatially reduced</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.17499995px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#333333;fill-opacity:1;stroke-width:0.26458299px">spatially reduced</tspan></text>
       <g
          id="g5549"
          transform="translate(1.1450402,1.0583334)">
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46944px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46943998px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="11.605485"
            y="276.06256"
            id="text5473"><tspan
@@ -4776,9 +4759,9 @@
              id="tspan5471"
              x="11.605485"
              y="276.06256"
-             style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.175px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light Italic';stroke-width:0.264583px">ρ<tspan
+             style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.17499995px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light Italic';stroke-width:0.26458299px">ρ<tspan
    id="tspan5475"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:65%;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';baseline-shift:sub">ℓ</tspan></tspan></text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64.99999762%;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue';baseline-shift:sub">ℓ</tspan></tspan></text>
       </g>
     </g>
     <g
@@ -4788,9 +4771,9 @@
          id="text5435"
          y="274.00024"
          x="31.154533"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46944px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46943998px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.175px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#333333;fill-opacity:1;stroke-width:0.264583px"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.17499995px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#333333;fill-opacity:1;stroke-width:0.26458299px"
            y="274.00024"
            x="31.154533"
            id="tspan5433"
@@ -4802,9 +4785,9 @@
            id="text5406"
            y="275.8714"
            x="40.168503"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46944px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46943998px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.175px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';stroke-width:0.264583px"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.17499995px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';stroke-width:0.26458299px"
              y="275.8714"
              x="40.168503"
              id="tspan5404"
@@ -4812,7 +4795,7 @@
                id="tspan5410"
                style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light Italic'">ρ</tspan><tspan
                id="tspan5408"
-               style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:65%;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light Italic';baseline-shift:sub">n</tspan></tspan></text>
+               style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:64.99999762%;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light Italic';baseline-shift:sub">n</tspan></tspan></text>
       </g>
     </g>
     <g
@@ -4820,23 +4803,23 @@
        id="g5592">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46944px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46943998px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="60.95697"
          y="273.6059"
          id="text5496"><tspan
            sodipodi:role="line"
            x="60.95697"
            y="273.6059"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.175px;line-height:3.175px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#333333;fill-opacity:1;stroke-width:0.264583px"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.17499995px;line-height:3.17499995px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#333333;fill-opacity:1;stroke-width:0.26458299px"
            id="tspan5520">bosonic diagonal </tspan></text>
       <text
          id="text5534"
          y="277.81915"
          x="61.03952"
-         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46944px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46943998px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            id="tspan5532"
-           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.175px;line-height:3.175px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#333333;fill-opacity:1;stroke-width:0.264583px"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.17499995px;line-height:3.17499995px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light';fill:#333333;fill-opacity:1;stroke-width:0.26458299px"
            y="277.81915"
            x="61.03952"
            sodipodi:role="line">ensemble</tspan></text>
@@ -4845,7 +4828,7 @@
          transform="translate(-0.656622,1.5705449)">
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46944px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:2.46943998px;line-height:1000%;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif Medium';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458299px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            x="76.562408"
            y="275.42072"
            id="text5504"><tspan
@@ -4853,9 +4836,9 @@
              id="tspan5502"
              x="76.562408"
              y="275.42072"
-             style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.175px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light Italic';stroke-width:0.264583px">ρ<tspan
+             style="font-style:italic;font-variant:normal;font-weight:300;font-stretch:normal;font-size:3.17499995px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue Light Italic';stroke-width:0.26458299px">ρ<tspan
    id="tspan5536"
-   style="font-size:65%;baseline-shift:sub">d</tspan></tspan></text>
+   style="font-size:64.99999762%;baseline-shift:sub">d</tspan></tspan></text>
       </g>
     </g>
   </g>
