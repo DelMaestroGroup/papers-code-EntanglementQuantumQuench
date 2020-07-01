@@ -13,7 +13,7 @@ The time evolution of an initial quantum state after a sudden change of interact
 ### Description
 This repository includes links, code, scripts, and data to perform analysis and generate figures for the associated paper on understanding entanglement after an interacting quantum quench in a model of interacting spinless fermions in 1D described by Hamiltonian:
 
-<img width="400px" src="https://render.githubusercontent.com/render/math?math=H%3D%20-J%5Csum_%7Bi%3D1%7D%5E%7BL%7D%5Cleft(c%5E%5Cdagger_%7Bi%7Dc%5E%7B%5Cphantom%7B%5Cdagger%7D%7D_%7Bi%2B1%7D%20%2Bc%5E%5Cdagger_%7Bi%2B1%7D%20c%5E%7B%5Cphantom%7B%5Cdagger%7D%7D_%7Bi%7D%20%20%5Cright)%20%2B%20V%20%5Csum_%7Bi%3D1%7D%5E%7BL%7D%20n_i%20n_%7Bi%2B1%7D">
+<img width="400px" src="https://render.githubusercontent.com/render/math?math=H%3D%20-J%5Csum_%7Bi%3D1%7D%5E%7BL%7D%5Cleft(c%5E%5Cdagger_%7Bi%7D%20c%5E%7B%5Cphantom%7B%5Cdagger%7D%7D_%7Bi%2B1%7D%20%2Bc%5E%5Cdagger_%7Bi%2B1%7D%20%0A%20%20%20%20c%5E%7B%5Cphantom%7B%5Cdagger%7D%7D_%7Bi%7D%20%5Cright)%20%2B%20V(t)%5Csum_%7Bi%3D1%7D%5E%7BL%7D%20n_i%20n_%7Bi%2B1%7D">
 
 ### Requirements
 The data in this project was generated via exact diagonalization.  Everything included in the [data](https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/tree/master/data) directory was generated via:
