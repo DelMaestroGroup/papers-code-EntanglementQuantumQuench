@@ -3,12 +3,12 @@
 
 
 
-# Universal Entanglement Growth After a Quantum Quench
+# Equivalence of Spatial and Particle Entanglement Growth After a Quantum Quench
 Adrian Del Maestro, Hatem Barghathi and Bernd Rosenow
 [arXiv:1912.09947](https://arxiv.org/abs/1912.09947)
 
 ### Abstract
-The time evolution of an initial quantum state after a sudden change of interaction strength  leads to an asymptotic steady state, whose local properties are governed by the buildup of entanglement between spatial subregions of the system. Little is known about the simultaneous evolution of entanglement between groups of particles, which is based on n-point correlation functions.  We  analyze fermions after an interaction quantum quench in one spatial dimension and demonstrate that the steady state entropy density accumulated via entanglement dynamics is equivalent under either a spatial or particle bipartition.  Building on this connection, we  find that experimentally accessible density-density correlations can be employed to construct a  diagonal ensemble density matrix of  non-interacting bosons to compute the von Neumann entropy density, complementary to measurements of  Renyi entropies. Our results highlight the universality of the dynamical transmutation of entanglement to thermodynamic entropy under time evolution that underlies our current framework of quantum statistical mechanics.
+We analyze fermions after an interaction quantum quench in one spatial dimension and study the growth of the steady state entanglement entropy density under either a spatial mode or particle bipartition. For integrable lattice models, we find excellent agreement between the increase of spatial and particle entanglement entropy, and for chaotic models, an examination of two further neighbor interaction strengths suggests similar correspondence. This result highlights the generality of the dynamical conversion of entanglement to thermodynamic entropy under time evolution that underlies our current framework of quantum statistical mechanics.
 
 ### Description
 This repository includes links, code, scripts, and data to perform analysis and generate figures for the associated paper on understanding entanglement after an interacting quantum quench in a model of interacting spinless fermions in 1D described by Hamiltonian:
@@ -26,19 +26,19 @@ The creation of these materials was supported in part by the National Science Fo
 
 [<img width="100px" src="https://www.nsf.gov/images/logos/NSF_4-Color_bitmap_Logo.png">](http://www.nsf.gov/awardsearch/showAward?AWD_ID=1553991)
 
-### Figures
+<!-- ### Figures -->
 
-#### Figure 01: Entanglement evolution after a quantum quench
-<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/method_flowchart_nobox.svg" width="400px">
+<!-- #### Figure 01: Entanglement evolution after a quantum quench -->
+<!-- <img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/method_flowchart_nobox.svg" width="400px"> -->
 
-This figure is relesed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) and can be freely copied, redistributed and remixed.
+<!-- This figure is relesed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) and can be freely copied, redistributed and remixed. -->
 
-#### Figure 02: Exact diagonalization results for entanglemnent
-<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/DeltaS_vs_t_ED.svg" width="400px">
+<!-- #### Figure 02: Exact diagonalization results for entanglemnent -->
+<!-- <img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/DeltaS_vs_t_ED.svg" width="400px"> -->
 
-#### Figure 03: Universality of entanglement
-<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/asymptotic_entropy_vs_invN_LL_prediction.svg" width="400px">
+<!-- #### Figure 03: Universality of entanglement -->
+<!-- <img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/asymptotic_entropy_vs_invN_LL_prediction.svg" width="400px"> -->
 
-#### Figure 04: Entanglement entropy from the bosonic diagonal ensemble
-<img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/nobdm_SqnLL_N12_EE.svg" width="400px">
+<!-- #### Figure 04: Entanglement entropy from the bosonic diagonal ensemble -->
+<!-- <img src="https://github.com/DelMaestroGroup/papers-code-EntanglementQuantumQuench/blob/master/figures/nobdm_SqnLL_N12_EE.svg" width="400px"> -->
 
