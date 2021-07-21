@@ -7,8 +7,8 @@
 ### FONT
 font.size           : 10.0
 font.family         : sans-serif
-font.sans-serif     : Helvetica
-font.weight         : ultralight
+font.sans-serif     : Helvetica Neue
+font.weight         : light
 text.hinting        : auto
 text.hinting_factor : 8
 
@@ -26,7 +26,7 @@ text.usetex         :  False # use latex for all text handling. The following fo
 ### Use Helvetica for Math Text
 
 mathtext.fontset : custom
-mathtext.rm : Helvetica
+mathtext.rm : Helvetica:light
 mathtext.it : Helvetica:italic
 mathtext.bf : Helvetica:bold
 

@@ -7,8 +7,8 @@ legend.fontsize  : 14
 legend.frameon : False
 
 font.family : sans-serif
-font.sans-serif : Helvetica 
-font.weight         : light
+font.sans-serif : Helvetica Neue
+font.weight         : ultralight
 text.hinting        : auto
 text.hinting_factor : 8
 
@@ -21,6 +21,7 @@ figure.subplot.top: 0.92
 # figure.dpi       : 300 # figure dots per inch
 savefig.pad_inches  : 0.05      # Padding to be used when bbox is set to 'tight'
 savefig.bbox        : tight     # 'tight' or 'standard'.
+pdf.fonttype       : 42
 
 # spectral color scheme
 axes.prop_cycle: cycler('color', ['5E4Fa2', '3C93B8', '79C9A4', 'C2E69F', 'F1F9AA', 'FEEC9F', 'FDBB6C', 'F57949', 'D7414E', '9E0142'])
@@ -44,7 +45,7 @@ text.usetex: False
 
 # AXES
 axes.titlesize : 18
-axes.labelweight : light
+axes.labelweight : ultralight
 axes.linewidth : 1.0     # edge linewidth
 axes.labelsize : 16
 axes.labelpad  : 2.0

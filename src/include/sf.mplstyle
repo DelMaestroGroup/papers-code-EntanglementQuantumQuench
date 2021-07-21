@@ -1,0 +1,81 @@
+### FONT
+font.size           : 8.0
+font.family         : serif
+font.serif          : CMU Serif
+text.hinting        : auto
+text.hinting_factor : 8
+
+### LaTeX customizations. See http://www.scipy.org/Wiki/Cookbook/Matplotlib/UsingTex
+text.usetex         : True  # use latex for all text handling. The following fonts
+                              # are supported through the usual rc parameter settings:
+                              # new century schoolbook, bookman, times, palatino,
+                              # zapf chancery, charter, serif, sans-serif, helvetica,
+                              # avant garde, courier, monospace, computer modern roman,
+                              # computer modern sans serif, computer modern typewriter
+                              # If another font is desired which can loaded using the
+                              # LaTeX \usepackage command, please inquire at the
+                              # matplotlib mailing list
+
+
+# undo change to new latex font
+mathtext.fontset    : cm
+mathtext.rm         : serif
+
+text.latex.preamble : \usepackage{siunitx} \usepackage{svrsymbols} \usepackage{yfonts} \sisetup{per-mode=reciprocal} 
+
+### LINES
+lines.linewidth     : 1.0
+lines.dash_joinstyle : round        # miter|round|bevel
+lines.dash_capstyle : round          # butt|round|projecting
+lines.solid_joinstyle : round       # miter|round|bevel
+lines.solid_capstyle : round        # butt|round|projecting
+lines.markersize    : 5             # default marker size
+
+
+### AXES
+axes.labelsize      : 8      # fontsize of the x any y labels
+axes.linewidth      : 0.35    # edge linewidth
+axes.labelpad       : 2.0
+
+### TICKS
+
+# see http://matplotlib.org/api/axis_api.html#matplotlib.axis.Tick
+xtick.major.size     : 2      # major tick size in points
+xtick.major.width    : 0.35      # major tick width in points
+xtick.minor.size     : 0      # minor tick size in points
+xtick.major.pad      : 3      # distance to major tick label in points
+xtick.minor.pad      : 3      # distance to the minor tick label in points
+xtick.labelsize      : 8      # fontsize of the tick labels
+xtick.top : False
+# xtick.direction: in
+
+ytick.major.size     : 2      # major tick size in points
+ytick.major.width    : 0.35      # major tick width in points
+ytick.minor.size     : 0      # minor tick size in points
+ytick.major.pad      : 3      # distance to major tick label in points
+ytick.minor.pad      : 3      # distance to the minor tick label in points
+ytick.labelsize      : 8      # fontsize of the tick labels
+ytick.right : False
+# ytick.direction: in
+
+### Legend
+legend.fontsize      : 8
+legend.frameon       : False   # whether or not to draw a frame around legend
+legend.labelspacing  : 0.25
+legend.handletextpad : 0.5
+legend.handlelength  : 2.5      # the length of legend lines
+
+### FIGURE
+# See http://matplotlib.org/api/figure_api.html#matplotlib.figure.Figure
+figure.figsize   : 3.4039, 2.10373    # figure size in inches
+figure.subplot.bottom: 0.15
+figure.subplot.left: 0.15
+figure.subplot.right: 0.95
+figure.subplot.top: 0.92
+
+savefig.transparent :  True     # transparent figures
+savefig.dpi         : 300     # figure dots per inch
+savefig.bbox        : tight     # 'tight' or 'standard'.
+savefig.pad_inches  : 0.01       # Padding to be used when bbox is set to 'tight'
+# ps.usedistiller     : xpdf
+pdf.fonttype       : 42

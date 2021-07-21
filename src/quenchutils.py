@@ -6,20 +6,33 @@ Various useful utilities for analysis of quantum quench data
 import numpy as np
 from numpy import pi as π
 from scipy.integrate import quad
+import os
 
 # ---------------------------------------------------------------------------------------
-def get_ED_fname(N,Vi,Vf,Δt,ti,tf,n,data_dir,fmt='partEE'):
+def get_ED_fname(N,Vi,Vf,Δt,ti,tf,n,data_dir,bc='PBC',fmt='partEE',Vpi=0.0,Vpf=0.0):
     '''data file names''' 
-    return data_dir + fmt + '_{:02d}_{:02d}_{:+5.3f}_{:+5.3f}_{:6.4f}_{:06.3f}_{:06.3f}_{:1d}.dat'.format(2*N,N,Vi,Vf,Δt,ti,tf,n)
+    if Vpi > 0.0 or Vpf > 0.0:
+        data_name = f'_{2*N:02d}_{N:02d}_{Vi:+5.3f}_{Vpi:+5.3f}_{Vf:+5.3f}_{Vpf:+5.3f}_{Δt:6.4f}_{ti:06.3f}_{tf:06.3f}_{n:1d}.dat'
+        return data_dir + bc + os.sep + 'VPrime' + os.sep +  fmt + data_name
+    else:
+        data_name = f'_{2*N:02d}_{N:02d}_{Vi:+5.3f}_{Vf:+5.3f}_{Δt:6.4f}_{ti:06.3f}_{tf:06.3f}_{n:1d}.dat'
+        return data_dir + bc + os.sep + fmt + data_name
 
 # ---------------------------------------------------------------------------------------
-def lookup(N,Vi,Vf,Δt,n, bc='PBC'):
+def lookup(N,Vi,Vf,Δt,n, bc='PBC',Vpi=0.0,Vpf=0.0):
     '''key for data dictionary'''
-    return u'N={:02d}, Vi={:+5.3f}, Vf={:+5.3f}, Δt={:6.4f}, n={:1d} {:s}'.format(N,Vi,Vf,Δt,n,bc)
+    
+    if Vpi > 0.0 or Vpf > 0.0:
+        return f"N={N:02d}, Vi={Vi:+5.3f}, Vf={Vf:+5.3f}, Vpi={Vpi:+5.3f}, Vpf={Vpf:+5.3f}, Δt={Δt:6.4f}, n={n:1d} {bc}"
+    else: 
+        return f"N={N:02d}, Vi={Vi:+5.3f}, Vf={Vf:+5.3f}, Δt={Δt:6.4f}, n={n:1d} {bc}"  
 
 # ---------------------------------------------------------------------------------------
-def vkey(V):
-    return 'V={:5.3f}'.format(V)
+def vkey(V, bc='PBC', Vpf=0.0):
+    if Vpf > 0:
+        return f'V={V:+5.3f}, Vp={Vpf:+5.3f}, {bc}'
+    else:
+        return f'V={V:+5.3f}, {bc}'
 
 # ---------------------------------------------------------------------------------------
 def γeq(K):
@@ -50,7 +63,8 @@ def vV(V):
 
 # ---------------------------------------------------------------------------------------
 def tscalefactor(V):
-    '''Rescaling factor of ED times to compare with Luttinger liquid data.
+    '''Rescaling factor of ED times (v/J) to compare with Luttinger liquid data.     
+    This converts t · J -> t · v; J = 1.
     '''
     return π * np.sqrt(1-(V/2)**2) / (np.arccos(V/2))
 
@@ -231,3 +245,85 @@ def binning_error(data):
             print('Binning Converge Error: no plateau found')
             
     return np.array(num_bins),Δ,binned_error
+
+#------------------------------------------------------------------------------
+def get_asymptote(data,tf):
+    '''Extract asymptote using a Butterworth filter'''
+
+    asymp = []
+    filter_order = 9
+    ω_cut = 1.0/tf
+    for ω in [ω_cut, 2*ω_cut]:
+        sos = signal.butter(filter_order, ω, btype='lowpass', output='sos')
+        smooth_data = signal.sosfiltfilt(sos, data)
+        asymp.append(np.average(smooth_data[-20:]))
+        
+    return asymp[0],np.abs(asymp[1]-asymp[0])
+
+#---------------------------------------------------------------------------------
+def perform_fss(start,Vf,S1_asymp,ΔS1_asymp,A1_asymp,ΔA1_asymp,N,Vi,Δt,n,Vpf=[0.0]):
+    '''Perform a finite size scaling analysis. '''
+    
+    fS1_fit_,fAn_fit_ = {},{}
+    ΔfS1_fss_,ΔfAn_fss_ = {},{}
+    
+    for cVf in Vf:
+        for cVpf in Vpf:
+
+            Vkey = vkey(cVf,Vpf=cVpf)
+
+            An_data = np.array([[cN,A1_asymp[lookup(cN,Vi,cVf,Δt,n[i][-1],Vpf=cVpf)]]\
+                                for i,cN in enumerate(N) if lookup(cN,Vi,cVf,Δt,n[i][-1],Vpf=cVpf) in A1_asymp])
+            S1_data = np.array([[cN,S1_asymp[lookup(cN,Vi,cVf,Δt,1,Vpf=cVpf)]]\
+                                for cN in N if lookup(cN,Vi,cVf,Δt,1,Vpf=cVpf) in S1_asymp])
+
+            ΔAn_data = np.array([[cN,ΔA1_asymp[lookup(cN,Vi,cVf,Δt,n[i][-1],Vpf=cVpf)]]\
+                                 for i,cN in enumerate(N) if lookup(cN,Vi,cVf,Δt,n[i][-1],Vpf=cVpf) in ΔA1_asymp])
+            ΔS1_data = np.array([[cN,ΔS1_asymp[lookup(cN,Vi,cVf,Δt,1,Vpf=cVpf)]]\
+                                 for cN in N if lookup(cN,Vi,cVf,Δt,1,Vpf=cVpf) in ΔS1_asymp])
+
+            if S1_data.size > 0:
+                cN = S1_data[start:,0]
+                x = np.log(cN)/cN
+                fS1_fit_[Vkey],ΔfS1_fss_[Vkey] = get_fit(x,S1_data[start:,1],ΔS1_data[start:,1])
+
+            if An_data.size > 0:
+                cN = An_data[start:,0]
+                x = np.log(cN)/cN
+                fAn_fit_[Vkey],ΔfAn_fss_[Vkey] = get_fit(x,An_data[start:,1],ΔAn_data[start:,1])
+            
+    return fS1_fit_, ΔfS1_fss_, fAn_fit_, ΔfAn_fss_
+
+from lmfit import minimize, Parameters
+#---------------------------------------------------------------------------------
+def get_fit(x,y,Δy):
+    fit_params = Parameters()
+    fit_params.add('asymp', value=0.05, min=0.0, max=1.0)
+    fit_params.add('scale', value=-0.1, min=-1.5, max=1.5)
+
+    def fss_residual(params, x_, y_, Δy_):
+        asymp = params['asymp'].value
+        scale = params['scale'].value
+        return (asymp + scale*x_ - y_)/Δy_
+    
+    fit = minimize(fss_residual, fit_params, args=(x,y,Δy))    
+    return np.poly1d([fit.params['scale'],fit.params['asymp']]), fit.params['asymp'].stderr
+
+#---------------------------------------------------------------------------------
+def get_fit1(x,y,Δy):
+    fit_params = Parameters()
+    fit_params.add('asymp', value=0.05, min=0.0, max=1.0)
+    fit_params.add('scale', value=-0.1, min=-1.5, max=0.0)
+    fit_params.add('a', value=0.0)
+
+    def fss_residual(params, x_, y_, Δy_):
+        asymp = params['asymp'].value
+        scale = params['scale'].value
+        a = params['a'].value
+
+        return (asymp + scale*x_*np.log(x_) + a*x_ - y_)/Δy_
+    
+    fit = minimize(fss_residual, fit_params, args=(x,y,Δy))   
+    print(fit.params['a'].value)
+
+    return lambda x_: fit.params['asymp'].value + fit.params['scale'].valu
